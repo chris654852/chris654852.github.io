@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/83500ad31a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="personal-portfolio-img/images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Geographer and All Rounder</p>
+                <h1>Hello! I'm <span>Christian</span><br> from Sydney, NSW</h1>
+            </div>
+        </div>
+    </div>
+<!------------ About ------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="personal-portfolio-img/images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                         aliqua. Pharetra pharetra massa massa ultricies mi quis hendrerit 
+                         dolor. Mus mauris vitae ultricies leo integer malesuada nunc vel 
+                         risus.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>  
+                    </div> 
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Geographer</span><br>All rounder in the space</li>
+                            <li><span>Coding</span><br>All rounder in the space</li>
+                            <li><span>Web Development</span><br>All rounder in the space</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Geographer</span><br>Been doing it for yonks</li>
+                            <li><span>Coding</span><br>Been doing it for yonks</li>
+                            <li><span>Web Development</span><br>Been doing it for yonks</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - Current</span><br>At uni doing stuff</li>
+                            <li><span>2014 - 2019 </span><br>At high school doing stuff</li>
+                            <li><span>2007 - 2013</span><br>At primary school doing stuff</li>
+                        </ul>
+                        
+                    </div>    
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------------------ SERVICES ------------------------>
+
+<div id="services">
+    <div class="container">
+        <h1 class="=sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <span class="material-symbols-outlined">
+                    public
+                </span>
+                <h2>Geographer</h2>
+                <p>I am a specialist in Australian vegetation, beach morphology, and fieldwork</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">
+                    terminal
+                </span>
+                <h2>Coding</h2>
+                <p>I am a specialist in Australian vegetation, beach morphology, and fieldwork</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">
+                    web
+                </span>
+                <h2>Web Development</h2>
+                <p>I am a specialist in Australian vegetation, beach morphology, and fieldwork</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!------------------- Portfolio ----------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="personal-portfolio-img/images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Geographic reports</h3>
+                    <p>I have created numerous geographic reports that discuss various geographic issues</p>
+                    <a href="#"><span class="material-symbols-outlined">
+                        link
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="personal-portfolio-img/images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Random coding stuff</h3>
+                    <p>So yeah, this is summa my coding shit, so look at it!</p>
+                    <a href="#"><span class="material-symbols-outlined">
+                        link
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="personal-portfolio-img/images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>A couple of websites</h3>
+                    <p>I invite you to view some of my websites too</p>
+                    <a href="#"><span class="material-symbols-outlined">
+                        link
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-------------- Contact ------------>
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+           <h1 class="sub-title">Contact Me</h1> 
+           <p>contact@example.com</p>
+           <p>+61 455 555 555</p>
+           <div class="social-icons">
+                <a><span class="material-symbols-outlined-facebook">
+                    person_add
+                    </span> 
+                    <span class="material-symbols-outlined-linked-in">
+                        person_add
+                        </span>
+                    <span class="material-symbols-outlined-linktree">
+                            person_add
+                        </span>
+                    <span class="material-symbols-outlined-twitter">
+                            person_add
+                        </span>
+                </a>
+           </div>
+        </div>
+        <!-- RESUME AT 1:13:00  https://www.youtube.com/watch?v=0YFrGy_mzjY&t=12s -->
+        <div class="contact-right"></div>
+    </div>
+</div>
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){ 
+        for(tablink of tablinks){ 
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){ 
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+</body>
+</html>
